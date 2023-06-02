@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+    background-image: url('../Images/back.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+}
+
+nav{
+    margin-bottom: 2.5rem;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li{
+    display: inline;
+    margin: 0 2px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+
+#search{
+    background-color: rgb(56, 55, 55);
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+
+#search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+#search img:hover{
+    scale: 1.2;
+    opacity: 1.2;
+}
+
+.google{
+    width: 2em;
+    padding-top: 5px;
+}
+
+.sLeft{
+    padding: 0;
+    margin: 0;
+}
+
+.sRight img{
+    padding: 0;
+    width: 2.7em;
+}
+
+.time{
+    color: blue;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Geologica', sans-serif;
+}
+
+.time div{
+    display: inline;
+    
+}
+
+.am-pm{
+    font-size: 1.5rem;
+}
+
+#date{
+    color: blue;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.duo img{
+    width: 8.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 27px;
+}
+
+.duo:hover{
+    opacity: 0.8;
+}
+
+.weather img{
+    width: 8.5rem;
+    border-radius: 10px;
+}
+
+.weather:hover{
+    opacity: 0.8;
+}
+
+#apps{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app{
+    margin-top: 2rem;
+    margin-bottom: 1.2rem ;
+}
+
+.icon{
+    width: 3rem;
+    border-radius: 20px;
+}
+
+.app:hover{
+    opacity: 0.8;
+    scale: 1.2;
+}
+
+.itext{
+    color: blue;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#dots{
+    margin-bottom: 1.5rem;
+}
+
+#dots p{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#fApps{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fApps img:hover{
+    opacity: 0.8;
+    scale: 1.2;
+}
+
+@media(min-width:550px){
+    body{
+        background-image: url('../Images/933512.jpg');
+        background-size: cover;
+        background-position: top right;
+    }
+
+    .duo img{
+        width: 13rem;
+    }
+    
+    .weather img{
+        width: 13rem;
+    }
+
+    .itext{
+        text-align: left;
+    }
+
+    .icon{
+        margin: 0;
+    }
+}

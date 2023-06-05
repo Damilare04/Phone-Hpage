@@ -180,7 +180,7 @@ li{
 
 @media(min-width:610px){
     body{
-        background-image: url("./Images/933512.jpg");
+        background-image: url("Images/933512.jpg");
         background-size: cover;
         background-position: top right;
     }
